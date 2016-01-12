@@ -2,43 +2,25 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=none">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Developer, Blogger, Foodie and a Proud Indian!</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:900' rel='stylesheet' type='text/css'> -->
+
 		<link rel="stylesheet" href="lib/css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
-	<body ng-app="amrutha">
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            Amrutha sweet shop
-          </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<body ng-app="mani">
+    <div ui-view></div>
+    
+  	<script src="lib/js/angular.min.js"></script>
+    <script src="lib/js/angular-ui-router.js"></script>
+    <script src="lib/js/ui-bootstrap-0.14.3.min.js"></script>
 
-    <div class="container">
-      <h3>Hello World!</h3>
-    </div>
-  </body>
-	<script src="lib/js/angular.min.js"></script>
-  <script src="lib/js/angular-ui-router.js"></script>
-  <script src="lib/js/ui-bootstrap-0.14.3.min.js"></script>
+    <script src="js/script.js"></script>
 
-  <script src="js/script.js"></script>
+    <script src="js/controllers/menu-controller.js"></script>
+    <script src="js/controllers/dashboard-controller.js"></script>
+
 	</body>
 </html>
