@@ -1,2 +1,2 @@
 # immnk.github.io
-My personal blog website
+My personal portfolio website
