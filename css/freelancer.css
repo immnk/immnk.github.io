@@ -458,5 +458,5 @@ footer .footer-below {
     opacity: 0;
 }
 .white{
-    color: white;
+    color: white !important;
 }
