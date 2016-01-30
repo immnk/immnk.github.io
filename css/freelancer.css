@@ -459,5 +459,7 @@ footer .footer-below {
 }
 .white{
     color: white !important;
-    background: #2C3E50;
+}
+.white:hover{
+    color: #2C3E50 !important;
 }
