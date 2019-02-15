@@ -1,7 +1,0 @@
-{
-  "port": 8080,
-  "server": {
-    "baseDir": "dist/"
-  },
-  "browser": ["chrome"]
-}
