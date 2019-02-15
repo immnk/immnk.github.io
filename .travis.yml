@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "stable"
+install:
+  - npm install -g codecov
+  - npm install --only=dev
+after_success:
+  - npm run coverage
+  - npm run build:prod
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  local_dir: dist/
+  keep-history: true
+  on:
+    branch: master
+notifications:
+  email: false

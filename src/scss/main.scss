@@ -1,0 +1,48 @@
+@import 'variables';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $code-font;
+    color: $text-gray-color;
+  }
+  :root {
+    font-size: 62.5%; // 1rem = 10px
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.4rem;
+    text-align: center;
+    .header {
+      font-size: 5rem;
+      font-family: $header-font;
+      letter-spacing: 0.5rem;
+      .highlight {
+        color: $text-header-color;
+        font-family: $header-font;
+      }
+  
+      & + p {
+        padding: 1.2rem;
+        color: $text-dark-gray;
+        font-size: 1.3rem;
+      }
+    }
+    .icons-social {
+      i {
+        font-size: 3rem;
+        padding: 1rem;
+        &:hover {
+          color: $text-dark-gray;
+        }
+      }
+    }
+  }
+  
