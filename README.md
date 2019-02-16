@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/immnk/immnk.github.io.svg?branch=dev)](https://travis-ci.com/immnk/immnk.github.io) [![Dependencies](https://david-dm.org/immnk/webpack-testing.svg)](https://david-dm.org/) [![CodeFactor](https://www.codefactor.io/repository/github/immnk/webpack-testing/badge)](https://www.codefactor.io/repository/github/immnk/webpack-testing) [![Coverage Status](https://coveralls.io/repos/github/immnk/webpack-testing/badge.svg?branch=master)](https://coveralls.io/github/immnk/webpack-testing?branch=master) [![Tests](https://img.shields.io/badge/tests-covered-brightgreen.svg)](https://github.com/immnk/webpack-testing/issues/5)
 
-> Webpack Testing is a repository created with the intention of using `webpack` to compile JS modules. This project create `dist` folder during build and deploy its content to `gh-pages` using [![Travis CI](https://img.shields.io/badge/travis%20ci-enabled-brightgreen.svg)](https://travis-ci.org/immnk/webpack-testing)
+> Portfolio is a dev landing page created for Dev by Dev. It contains a minimal landing page which showcases talent of the dev and his capabilities for the entire dev lifecycle of a UI project from code, build, test and deploy with CI/CD. This project create `dist` folder during build and deploy its content to `master` using [![Travis CI](https://img.shields.io/badge/travis%20ci-enabled-brightgreen.svg)](https://travis-ci.com/immnk/immnk.github.io)
 
 ## Table of contents
 
@@ -17,10 +17,10 @@
 
 Follow the following steps:
 
-1. `git clone https://github.com/immnk/logo-generator-app.git`
-2. `cd webpack_testing && npm install`
+1. `git clone https://github.com/immnk/immnk.github.io.git`
+2. `cd immnk.github.io && npm install`
 3. For testing in dev `npm start`. To test prod `NODE_ENV=production npm start`
-4. Open `dist/index.html` in browser.
+4. Run `npm start` that would continue listening to changes in src and reload browser based on that.
 
 ## Test
 
@@ -32,12 +32,9 @@ Follow the following steps:
 All tasks and issues are listed as items in [Tasks & issues in repository Issues tab](https://github.com/immnk/webpack-testing/issues)
 
 - [x] Write a README file.
-- [x] Write JS modules and compile with webpack
 - [x] Make dist folder with html and js files compiled
 - [x] Create SCSS and compile them with webpack
-- [ ] Create API test method and set up
 - [x] Add CI/CD pipelines
-- [ ] Make automatic deployments on release branch
 - [x] Create unit test cases with Mocha(JS test framework) and Chai(assertion library)
 
 ## VS Code Plugins Recommended
