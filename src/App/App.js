@@ -1,7 +1,7 @@
-import css from "./App.css";
+import css from "./App.module.css";
+import "./App.css";
 
 function App() {
-  console.log(css);
   return (
     <div className={css.root}>
       <div className={css.devImage}></div>
@@ -13,12 +13,8 @@ function App() {
           Mobile and Front End Developer | UI UX | Web Designer | Foodie | Tech
           Enthusiastic | Developer #DBS | Proud Indian
         </p>
-        <div className={css.iconsSocial}>
-          <a
-            target="_blank"
-            href="https://github.com/immnk"
-            rel="noreferrer"
-          >
+        <div className="iconsSocial">
+          <a target="_blank" href="https://github.com/immnk" rel="noreferrer">
             <i className="fab fa-github"></i>
           </a>
           <a

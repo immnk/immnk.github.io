@@ -9,3 +9,7 @@
 :root {
   font-size: 62.5%; /** 1rem = 10px **/
 }
+
+body {
+  background-color: #f4f1bb;
+}
