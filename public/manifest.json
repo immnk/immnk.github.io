@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Mani's Portfolio",
+  "name": "Mani's Portfolio application built using React",
   "icons": [
     {
       "src": "favicon.ico",
