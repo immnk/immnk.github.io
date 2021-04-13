@@ -1,0 +1,11 @@
+{
+  "syntax": "postcss-scss",
+  "plugins": {
+    "postcss-import": {},
+    "postcss-nested": {},
+    "postcss-sassy-mixins": {},
+    "postcss-simple-vars": {},
+    "postcss-strip-inline-comments": {},
+    "autoprefixer": {}
+  }
+}

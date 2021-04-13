@@ -1,8 +1,55 @@
-.iconsSocial i {
-  font-size: 3rem;
-  padding: 1rem;
+.root {
 }
 
-.iconsSocial i:hover {
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.4rem;
+  text-align: center;
+}
+
+.header {
+  font-size: 5rem;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  letter-spacing: 0.5rem;
+}
+
+.highlight {
+  color: #330c2f;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.header + p {
+  padding: 1.2rem;
   color: #474448;
+  font-size: 1.3rem;
+}
+
+.devImage {
+  position: absolute;
+  top: 25%;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  background: #f4f1bb url(./dev.png) no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.iconsSocial {
+  :global {
+    i {
+      font-size: 3rem;
+      padding: 1rem;
+      &:hover {
+        color: #474448;
+      }
+    }
+  }
 }

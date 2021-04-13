@@ -1,5 +1,4 @@
-import css from "./App.module.css";
-import "./App.css";
+import css from './App.css';
 
 function App() {
   return (
@@ -10,35 +9,23 @@ function App() {
           Hi, I'm <span className={css.highlight}>Mani 👓</span>
         </h1>
         <p>
-          Mobile and Front End Developer | UI UX | Web Designer | Foodie | Tech
-          Enthusiastic | Developer #DBS | Proud Indian
+          Mobile and Front End Developer | UI UX | Web Designer | Foodie | Tech Enthusiastic |
+          Developer #DBS | Proud Indian
         </p>
-        <div className="iconsSocial">
+        <div className={css.iconsSocial}>
           <a target="_blank" href="https://github.com/immnk" rel="noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a
-            target="_blank"
-            href="https://twitter.com/manimnk"
-            rel="noreferrer"
-          >
+          <a target="_blank" href="https://twitter.com/manimnk" rel="noreferrer">
             <i className="fab fa-twitter"></i>
           </a>
-          <a
-            target="_blank"
-            href="https://stackoverflow.com/story/manikantamnk"
-            rel="noreferrer"
-          >
+          <a target="_blank" href="https://stackoverflow.com/story/manikantamnk" rel="noreferrer">
             <i className="fab fa-stack-overflow"></i>
           </a>
           <a target="_blank" href="https://dev.to/immnk" rel="noreferrer">
             <i className="fab fa-dev"></i>
           </a>
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/manikantatankala"
-            rel="noreferrer"
-          >
+          <a target="_blank" href="https://www.linkedin.com/in/manikantatankala" rel="noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
