@@ -11,8 +11,8 @@ function App() {
           Hi, I&apos;m <span className={css.highlight}>Mani 👓</span>
         </h1>
         <p>
-          Mobile and Front End Developer | UI UX | Web Designer | Foodie | Tech Enthusiastic |
-          Developer #DBS | Proud Indian
+          Mobile and Front End Developer | UI UX | Web Developer | Foodie | Tech Enthusiastic |
+          Developer #DBS #SGX #Sirius | Proud Indian
         </p>
         <div className={css.iconsSocial}>
           <a target="_blank" href="https://github.com/immnk" rel="noreferrer">
