@@ -1,6 +1,6 @@
 module.exports = {
   clearMocks: true,
-  collectCoverageFrom: ['src/**/*.js', !'src/**/index.js', !'src/**/*.test.js'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.js', '!<rootDir>/src/**/index.js'],
   coverageDirectory: 'reports',
   coverageThreshold: {
     global: {
@@ -10,9 +10,18 @@ module.exports = {
       lines: 50
     }
   },
-  reporters: ['default', 'jest-junit'],
-  setUpFiles: [],
-  testMatch: ['src/**/*.test.js'],
+  reporters: [
+    'default',
+    [
+      'jest-junit',
+      {
+        outputDirectory: 'reports',
+        outputName: 'jest-junit.xml'
+      }
+    ]
+  ],
+  setupFiles: [],
+  testMatch: ['<rootDir>/src/**/*.test.js'],
   testEnvironment: 'jsdom',
   testEnvironmentOptions: {},
   testURL: 'http://localhost',
@@ -28,7 +37,6 @@ module.exports = {
     '\\.(css|scss)$': 'identity-obj-proxy',
     '\\.(jpg|jpeg|png|svg|ttf)$': '<rootDir>/test/fileMock.js'
   },
-  setUpFilesAfterEnv: ['<rootDir>/test/setupTests.js'],
-  snapshotSerializers: ['enzyme-to-json/serializer'],
-  globalSetup: '<rootDir>/test/globalSetup.js'
+  setupFilesAfterEnv: ['<rootDir>/test/setUpTests.js'],
+  snapshotSerializers: ['enzyme-to-json/serializer']
 };

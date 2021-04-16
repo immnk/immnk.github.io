@@ -19,9 +19,6 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
       experimentalobjectRestSpread: true
-    },
-    babelOptions: {
-      configfile: '${_dirname}/babel.config.js'
     }
   },
 
@@ -46,10 +43,10 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     indent: 'off',
     'jest/no-large-snapshots': ['warn', { maxSize: 200 }],
-    'jsx-a1ly/anchor-is-valid': 'warn',
-    'jsx-ally/click-events-have-key-events': 'warn',
-    'jsx-a1ly/control-has-associated-label': 'warn',
-    'jsx-a11y/no-autofocus': 'off',
+    // 'jsx-a1ly/anchor-is-valid': 'warn',
+    // 'jsx-ally/click-events-have-key-events': 'warn',
+    // 'jsx-a1ly/control-has-associated-label': 'warn',
+    // 'jsx-a11y/no-autofocus': 'off',
     'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
     'max-depth': ['error', { max: 3 }],
     'max-len': ['warn', 120, { ignoreComments: true }, { ignoreTrailingComments: true }],

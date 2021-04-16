@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status](https://github.com/immnk/immnk.github.io/actions/workflows/cicd.yml/badge.svg)](https://github.com/immnk/immnk.github.io/actions/workflows/cicd.yml) [![Dependencies](https://david-dm.org/immnk/immnk.github.io.svg)](https://david-dm.org/) [![CodeFactor](https://www.codefactor.io/repository/github/immnk/immnk.github.io/badge)](https://www.codefactor.io/repository/github/immnk/immnk.github.io) [![Coverage Status](https://coveralls.io/repos/github/immnk/immnk.github.io/badge.svg?branch=dev)](https://coveralls.io/github/immnk/immnk.github.io?branch=dev) [![Tests](https://img.shields.io/badge/tests-covered-brightgreen.svg)](https://github.com/immnk/immnk.github.io/issues)
 
-## Available Scripts
+> Portfolio is a dev landing page created for Dev by Dev. It contains a minimal landing page which showcases talent of the dev and his capabilities for the entire dev lifecycle of a UI project from code, build, test and deploy with CI/CD. This project create `dist` folder during build and deploy its content to `master` using [![Github Actions](https://github.com/immnk/immnk.github.io/actions/workflows/cicd.yml)](https://github.com/immnk/immnk.github.io/actions/workflows/cicd.yml)
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+1. [Set up](#set-up)
+2. [Test](#test)
+3. [Tasks](#tasks)
+4. [Useful websites](#useful-websites)
+5. [VS Code Plugins Recommended](#vs-code-plugins-recommended)
+6. [LICENSE](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Set up
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Follow the following steps:
 
-### `npm test`
+1. `git clone https://github.com/immnk/immnk.github.io.git`
+2. `cd immnk.github.io && npm install`
+3. For testing in dev `npm start`.
+4. Run `npm start` that would continue listening to changes in src and reload browser based on that.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Test
 
-### `npm run build`
+1. Open webpack_testing folder where the code is cloned.
+2. Open command prompt at the folder and run `npm test`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tasks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All tasks and issues are listed as items in [Tasks & issues in repository Issues tab](https://github.com/immnk/webpack-testing/issues)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## VS Code Plugins Recommended
 
-### `npm run eject`
+- Beautify
+- Debugger for Chrome
+- ESLint
+- GitLens
+- IntelliSense for CSS class names
+- markdownlint
+- vscode-icons
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Useful websites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Mock data - https://www.mockaroo.com/
+2. Background generator - https://cssgradient.io/gradient-backgrounds/
+3. Markdown tricks - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+4. `open -a TextEdit ~/.zshrc`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT License](https://github.com/immnk/webpack-testing/blob/master/LICENSE)

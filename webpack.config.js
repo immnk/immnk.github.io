@@ -1,11 +1,10 @@
 const path = require('path');
 const webpack = require('webpack');
-const bodyParser = require('body-parser');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const TerserJSPlugin = require('terser-webpack-plugin');
+// const TerserJSPlugin = require('terser-webpack-plugin');
 
 const packageRoot = process.cwd();
 const packageJson = require(path.resolve(__dirname, 'package.json'));
@@ -20,9 +19,9 @@ const banner = `
     Generated on: ${new Date(Date.now()).toLocaleString()} 
     Commit hash: ${revision}`;
 
+// eslint-disable-next-line max-lines-per-function
 module.exports = (env = {}, argv = {}) => {
   const isProd = argv.mode === 'production';
-  const { NODE_ENV } = process.env;
 
   return {
     mode: isProd ? 'production' : 'development',
@@ -48,7 +47,6 @@ module.exports = (env = {}, argv = {}) => {
       rules: [
         {
           test: /\.(jsx?)$/,
-          include: /src/,
           exclude: /node_modules/,
           use: [
             {
@@ -143,6 +141,11 @@ module.exports = (env = {}, argv = {}) => {
         hashDigestLength: 8
       })
     ],
+    devServer: {
+      contentBase: path.join(__dirname, 'build/'),
+      port: 3000,
+      hotOnly: true
+    },
     devtool: isProd ? false : 'cheap-module-source-map',
     performance: {
       hints: false

@@ -80,12 +80,14 @@
   "scripts": {
     "clean": "rimraf ./build",
     "start": "webpack serve --mode=development --progress --profile --content-base src/",
-    "build": "npm run clean && npm run build:bundle && npm run test:postbuild",
+    "build": "npm run clean && npm run build:bundle",
     "build:bundle": "cross-env NODE_ENV=production webpack --mode=production",
     "test": "npm run lint && npm run test:coverage",
-    "test:coverage": "jest --coverage --runInBand --coverageReporters=lcov --detectOpenHandles --maxWorkers=50%",
+    "test:ci": "npm run lint && npm run test:coverage:ci",
+    "test:coverage": "jest --coverage --coverageReporters=lcov --runInBand --detectOpenHandles",
+    "test:coverage:ci": "jest --coverage --coverageReporters=lcov --maxWorkers=50%",
     "test:tests": "jest --config --maxWorkers=50%",
-    "test:postbuild": "jest --testMatch \"<rootDir>/test/build.test.js\"",
+    "test:postbuild": "jest --testMatch test/build.test.js",
     "lint": "npm run lint:eslint && npm run lint:stylelint",
     "lint:eslint": "eslint \"./src/**/*.{js,snap}\"",
     "lint:stylelint": "stylelint ./src/**/*.css"

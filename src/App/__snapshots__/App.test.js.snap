@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App render app 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="devImage"
+  />
+  <div
+    className="container"
+  >
+    <h1
+      className="header"
+    >
+      Hi, I'm 
+      <span
+        className="highlight"
+      >
+        Mani 👓
+      </span>
+    </h1>
+    <p>
+      Mobile and Front End Developer | UI UX | Web Designer | Foodie | Tech Enthusiastic | Developer #DBS | Proud Indian
+    </p>
+    <div
+      className="iconsSocial"
+    >
+      <a
+        href="https://github.com/immnk"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-github"
+        />
+      </a>
+      <a
+        href="https://twitter.com/manimnk"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-twitter"
+        />
+      </a>
+      <a
+        href="https://stackoverflow.com/story/manikantamnk"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-stack-overflow"
+        />
+      </a>
+      <a
+        href="https://dev.to/immnk"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-dev"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/manikantatankala"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-linkedin"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;

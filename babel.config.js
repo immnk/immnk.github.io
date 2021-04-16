@@ -3,23 +3,8 @@ module.exports = (api) => {
 
   return {
     sourceType: 'unambiguous',
-    presets: [
-      [
-        '@babel/preset-env',
-        {
-          targets: { firefox: '78', chrome: '78' },
-          useBuiltIns: 'usage',
-          corejs: '3.6.4'
-        }
-      ],
-      [
-        '@babel/preset-react',
-        {
-          runtime: 'automatic',
-          development: process.env.NODE_ENV === 'development'
-        }
-      ]
-    ],
+    presets: ['@babel/preset-env', '@babel/preset-react'],
+    exclude: 'node_modules',
     plugins: [
       'react-hot-loader/babel',
       '@babel/plugin-proposal-class-properties',
