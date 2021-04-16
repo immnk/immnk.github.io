@@ -4,6 +4,14 @@ object-assign
 @license MIT
 */
 
+/*!
+ * 
+ *     Package: immnk v1.0.0
+ *     File name: main.js
+ *     Generated on: 4/16/2021, 2:25:27 PM
+ *     Commit hash: c0d06e7377f45f906ea57141a2e3c7ac56a7c6fb
+ */
+
 /** @license React v0.20.2
  * scheduler.production.min.js
  *
@@ -15,15 +23,6 @@ object-assign
 
 /** @license React v17.0.2
  * react-dom.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/** @license React v17.0.2
- * react-jsx-runtime.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
