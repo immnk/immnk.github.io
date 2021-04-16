@@ -20,4 +20,4 @@ jobs:
 on:
   push:
     branches:
-      - react-app
+      - develop
