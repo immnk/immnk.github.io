@@ -1,0 +1,20 @@
+name: Build and Test
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - name: Install and Test 🔧
+        run: |
+          npm install
+          npm run test:ci
+
+      - name: Build
+        run: npm run build
+on:
+  # Trigger workflow if PR raised with base as develop
+  pull_request:
+    branches:
+      - develop
