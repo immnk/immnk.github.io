@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App render app 1`] = `
+<section
+  className="root my-classname"
+>
+  <ScrollAnimation
+    animateIn="fadeIn"
+    animateOnce={false}
+    animatePreScroll={true}
+    delay={500}
+    duration={1}
+    initiallyVisible={false}
+    offset={150}
+  >
+    <div
+      className="container"
+    >
+      <h3
+        className="header"
+      >
+        Hey, Mani here...! Nice to meet you.
+      </h3>
+      <p
+        className="description"
+      >
+        I am a frontend developer having 
+        <strong>
+          ​7+
+        </strong>
+         years of experience​ in
+         
+        <code>
+          ​JavaScript, ReactJS, angular, HTML5, CSS3​
+        </code>
+        . I have solid experience with ​NodeJS, ExpressJS, webpack​. I review code on pull requests raised on a shared monorepo built with 
+        <code>
+          lerna
+        </code>
+        . I also maintain CICD pipelines for code using Jenkins & travis. I also established code quality checks with SonarQube. I have considerable REST apis developed for local apps. My github account reflects the same. Please reach it at
+         
+        <a
+          href="https://github.com/immnk"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          ​https://github.com/immnk
+        </a>
+      </p>
+    </div>
+  </ScrollAnimation>
+</section>
+`;

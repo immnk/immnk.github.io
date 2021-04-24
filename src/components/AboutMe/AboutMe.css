@@ -1,0 +1,29 @@
+.root {
+  background-color: #f4f1bb;
+  color: #676767;
+}
+
+.container {
+  width: 720px;
+  margin: 0 auto;
+  padding: 8rem 2.4rem 16rem 2.4rem;
+}
+
+.header {
+  font-family: 'Abel', sans-serif;
+  font-weight: 800;
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.description {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  text-align: center;
+
+  code {
+    font-family: monospace;
+  }
+}

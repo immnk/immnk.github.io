@@ -1,5 +1,8 @@
 import React from 'react';
+import { hot } from 'react-hot-loader/root';
 
+import AboutMe from 'components/AboutMe';
+import Roles from 'components/Roles';
 import css from './App.css';
 
 function App() {
@@ -32,8 +35,10 @@ function App() {
           </a>
         </div>
       </div>
+      <AboutMe />
+      <Roles />
     </div>
   );
 }
 
-export default App;
+export default hot(App);

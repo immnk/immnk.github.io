@@ -1,0 +1,67 @@
+.root {
+  margin: 0 auto;
+  margin-top: -12rem;
+  padding: 0.8rem 2.4rem 2.4rem;
+}
+
+.container {
+  background: #fffff9;
+  color: #676767;
+  display: flex;
+  font-size: 1.4rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+
+.subContainer {
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid #e6ecf8;
+  border-right: 1px solid #e6ecf8;
+  padding: 6rem 3rem;
+
+  &:last-child {
+    border-bottom: none;
+    border-right: none;
+  }
+}
+
+.mobile {
+}
+
+.frontend {
+}
+
+.node {
+}
+
+.icon {
+  font-size: 5rem;
+  color: #bfacaa;
+}
+
+.description {
+  padding: 2rem 1rem;
+
+  code {
+    font-family: monospace;
+  }
+}
+
+.title {
+  font-size: 2.4rem;
+  margin-top: 1.5rem;
+}
+
+.listTitle {
+  color: #bfacaa;
+  font-size: 1.5rem;
+}
+
+.list {
+  list-style-type: none;
+  padding: 1.5rem;
+}

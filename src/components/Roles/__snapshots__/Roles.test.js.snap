@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App render app 1`] = `
+<section
+  className="root my-classname"
+>
+  <div
+    className="container"
+  >
+    <ScrollAnimation
+      animateIn="pulse"
+      animateOnce={false}
+      animatePreScroll={true}
+      className="subContainer mobile"
+      delay={0}
+      duration={1}
+      initiallyVisible={false}
+      key="mobile"
+      offset={150}
+    >
+      <figure
+        className="icon"
+      >
+        <i
+          className="fas fa-mobile-alt"
+        />
+      </figure>
+      <h1
+        className="title"
+      >
+        Mobile Developer
+      </h1>
+      <p
+        className="description"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "I have developed enterprise hybrid mobile applications for <code>Android</code> and
+  <code>iOS</code>. I have also developed some apps for personal use. Do check out
+  <a
+    href=\\"https://play.google.com/store/apps/details?id=com.creatuslabs.portfolio\\"
+    rel=\\"noreferrer\\"
+  >
+    here
+  </a>",
+          }
+        }
+      />
+      <p
+        className="listTitle"
+      >
+        Tools used
+      </p>
+      <ul
+        className="list"
+      >
+        <li
+          key="Ionic"
+        >
+          Ionic
+        </li>
+        <li
+          key="Cordova"
+        >
+          Cordova
+        </li>
+        <li
+          key="Swift"
+        >
+          Swift
+        </li>
+        <li
+          key="Java"
+        >
+          Java
+        </li>
+      </ul>
+      <p
+        className="listTitle"
+      >
+        Domains Worked
+      </p>
+      <ul
+        className="list"
+      >
+        <li
+          key="eCommerce"
+        >
+          eCommerce
+        </li>
+        <li
+          key="Insurance"
+        >
+          Insurance
+        </li>
+        <li
+          key="Gaming"
+        >
+          Gaming
+        </li>
+      </ul>
+    </ScrollAnimation>
+    <ScrollAnimation
+      animateIn="pulse"
+      animateOnce={false}
+      animatePreScroll={true}
+      className="subContainer frontend"
+      delay={0}
+      duration={1}
+      initiallyVisible={false}
+      key="frontend"
+      offset={150}
+    >
+      <figure
+        className="icon"
+      >
+        <i
+          className="fas fa-laptop-code"
+        />
+      </figure>
+      <h1
+        className="title"
+      >
+        Front-end Developer
+      </h1>
+      <p
+        className="description"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "I like to build user interfaces for applications that solve problems for real users 
+        and turn ideas into reality!",
+          }
+        }
+      />
+      <p
+        className="listTitle"
+      >
+        Tools used
+      </p>
+      <ul
+        className="list"
+      >
+        <li
+          key="ReactJS"
+        >
+          ReactJS
+        </li>
+        <li
+          key="Vanilla JS"
+        >
+          Vanilla JS
+        </li>
+        <li
+          key="HTML5"
+        >
+          HTML5
+        </li>
+        <li
+          key="CSS3"
+        >
+          CSS3
+        </li>
+        <li
+          key="GitHub"
+        >
+          GitHub
+        </li>
+        <li
+          key="iTerm"
+        >
+          iTerm
+        </li>
+        <li
+          key="VS Code"
+        >
+          VS Code
+        </li>
+        <li
+          key="CSS Modules"
+        >
+          CSS Modules
+        </li>
+      </ul>
+      <p
+        className="listTitle"
+      >
+        Domains Worked
+      </p>
+      <ul
+        className="list"
+      >
+        <li
+          key="Banking"
+        >
+          Banking
+        </li>
+        <li
+          key="Insurance"
+        >
+          Insurance
+        </li>
+        <li
+          key="Trading"
+        >
+          Trading
+        </li>
+      </ul>
+    </ScrollAnimation>
+    <ScrollAnimation
+      animateIn="pulse"
+      animateOnce={false}
+      animatePreScroll={true}
+      className="subContainer node"
+      delay={0}
+      duration={1}
+      initiallyVisible={false}
+      key="node"
+      offset={150}
+    >
+      <figure
+        className="icon"
+      >
+        <i
+          className="fab fa-node-js"
+        />
+      </figure>
+      <h1
+        className="title"
+      >
+        NodeJS Developer
+      </h1>
+      <p
+        className="description"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "I write backend code using NodeJS to create a full stack apps that can communicate with mobile or web.",
+          }
+        }
+      />
+      <p
+        className="listTitle"
+      >
+        Tools used
+      </p>
+      <ul
+        className="list"
+      >
+        <li
+          key="NodeJS"
+        >
+          NodeJS
+        </li>
+        <li
+          key="ExpressJS"
+        >
+          ExpressJS
+        </li>
+        <li
+          key="mongoDB"
+        >
+          mongoDB
+        </li>
+        <li
+          key="MERN"
+        >
+          MERN
+        </li>
+      </ul>
+      <p
+        className="listTitle"
+      >
+        Domains Worked
+      </p>
+      <ul
+        className="list"
+      >
+        <li
+          key="eCommerce"
+        >
+          eCommerce
+        </li>
+        <li
+          key="Insurance"
+        >
+          Insurance
+        </li>
+      </ul>
+    </ScrollAnimation>
+  </div>
+</section>
+`;
