@@ -7,6 +7,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 // const TerserJSPlugin = require('terser-webpack-plugin');
 
 const packageRoot = process.cwd();
+// eslint-disable-next-line import/no-dynamic-require
 const packageJson = require(path.resolve(__dirname, 'package.json'));
 const revision = require('child_process')
   .execSync('git log -n 1 --pretty=format:"%H"')

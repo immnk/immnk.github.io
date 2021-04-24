@@ -73,5 +73,7 @@ exports[`Test App render app 1`] = `
       </a>
     </div>
   </div>
+  <AboutMe />
+  <Roles />
 </div>
 `;
