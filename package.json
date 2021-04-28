@@ -35,7 +35,7 @@
     "css-minimizer-webpack-plugin": "^2.0.0",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.2",
-    "eslint": "^7.23.0",
+    "eslint": "^7.25.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-loader": "^4.0.2",
