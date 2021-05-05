@@ -29,7 +29,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-dynamic-import-node": "^2.3.3",
     "body-parser": "^1.19.0",
-    "core-js": "^3.11.0",
+    "core-js": "^3.11.3",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.4",
     "css-minimizer-webpack-plugin": "^2.0.0",
