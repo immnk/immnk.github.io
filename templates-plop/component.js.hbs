@@ -1,0 +1,31 @@
+import React from 'react';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import css from './{{componentName}}.css';
+
+const {{componentName}} = ({ className }) => {
+  return (
+    <section className={classNames(css.root, className)}>
+      <ScrollAnimation animateIn="fadeIn" delay={100} initiallyVisible={false}>
+        <div className={css.container}>
+          <h3 className={css.header}>{{componentName}} is here!</h3>
+          <p className={css.description}>
+            Some description is here
+          </p>
+        </div>
+      </ScrollAnimation>
+    </section>
+  );
+};
+
+{{componentName}}.defaultProps = {
+  className: undefined
+};
+
+{{componentName}}.propTypes = {
+  className: PropTypes.string
+};
+
+export default {{componentName}};

@@ -8,7 +8,7 @@ import css from './AboutMe.css';
 const AboutMe = ({ className }) => {
   return (
     <section className={classNames(css.root, className)}>
-      <ScrollAnimation animateIn="fadeIn" delay={500} initiallyVisible={false}>
+      <ScrollAnimation animateIn="fadeIn" delay={100} initiallyVisible={false}>
         <div className={css.container}>
           <h3 className={css.header}>Hey, Mani here...! Nice to meet you.</h3>
           {/* eslint no-irregular-whitespace: 0 */}

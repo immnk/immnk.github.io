@@ -1,0 +1,21 @@
+import React from 'react';
+import { shallow } from 'enzyme';
+
+import {{componentName}} from './{{componentName}}';
+
+const render{{componentName}} = (props) => {
+  const defaultProps = {
+    className: 'my-classname'
+  };
+
+  return <{{componentName}} {...defaultProps} {...props} />;
+};
+
+const shallowRender{{componentName}} = (props) => shallow(render{{componentName}}(props));
+
+describe('Test {{componentName}}', () => {
+  it('render app', () => {
+    const actual = shallowRender{{componentName}}();
+    expect(actual).toMatchSnapshot();
+  });
+});

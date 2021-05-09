@@ -33,7 +33,7 @@
 
 .devImage {
   position: absolute;
-  top: 10%;
+  top: 5%;
   transform: translateX(-50%) translateY(-50%);
   left: 50%;
   width: 100px;
@@ -43,6 +43,11 @@
   background-size: contain;
   border-radius: 50%;
   z-index: 1;
+
+  @media screen and (max-width: 540px) {
+    top: 50px;
+    transform: translateX(-50%);
+  }
 }
 
 .iconsSocial {
