@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Work render app 1`] = `
+<section
+  className="root my-classname"
+>
+  <ScrollAnimation
+    animateIn="fadeIn"
+    animateOnce={false}
+    animatePreScroll={true}
+    delay={100}
+    duration={1}
+    initiallyVisible={false}
+    offset={150}
+  >
+    <div
+      className="container"
+    >
+      <h3
+        className="header"
+      >
+        Previous Work
+      </h3>
+      <p
+        className="description"
+      >
+        Here are list of my previous work done.
+      </p>
+      <div
+        className="workListWrapper"
+      >
+        <a
+          className="work"
+          href="https://pranavamnaturallife.com/"
+          key="Pranavam Natural Life"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Pranavam Natural Life"
+            className="image"
+            src="test-file-stub"
+          />
+          <h4
+            className="title"
+          >
+            Pranavam Natural Life
+          </h4>
+        </a>
+        <a
+          className="work"
+          href="https://www.behance.net/manikantamnk"
+          key="Creatus labs"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Creatus labs"
+            className="image"
+            src="test-file-stub"
+          />
+          <h4
+            className="title"
+          >
+            Creatus labs
+          </h4>
+        </a>
+        <a
+          className="work"
+          href="https://www.facebook.com/thebotdesigners"
+          key="The Bot Designers"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="The Bot Designers"
+            className="image"
+            src="test-file-stub"
+          />
+          <h4
+            className="title"
+          >
+            The Bot Designers
+          </h4>
+        </a>
+        <a
+          className="work"
+          href="https://judgingapp-admin.herokuapp.com/"
+          key="Judging App"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Judging App"
+            className="image"
+            src="test-file-stub"
+          />
+          <h4
+            className="title"
+          >
+            Judging App
+          </h4>
+        </a>
+        <a
+          className="work"
+          href="https://www.messenger.com/t/121496828551626"
+          key="Arya Watson"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Arya Watson"
+            className="image"
+            src="test-file-stub"
+          />
+          <h4
+            className="title"
+          >
+            Arya Watson
+          </h4>
+        </a>
+        <a
+          className="work"
+          href="https://www.messenger.com/t/296374397500984"
+          key="Sirius Kart"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Sirius Kart"
+            className="image"
+            src="test-file-stub"
+          />
+          <h4
+            className="title"
+          >
+            Sirius Kart
+          </h4>
+        </a>
+      </div>
+      <div
+        className="companiesWorkedWrapper"
+      >
+        <h4
+          className="header"
+        >
+          I'm proud to work at these companies
+        </h4>
+        <div
+          className="companies"
+        >
+          <a
+            className="company"
+            href="https://www.dbs.com.sg/"
+            key="DBS Bank"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="DBS Bank"
+              className="image"
+              src="https://www.dbs.com.sg/iwov-resources/flp/images/dbs_logo.svg"
+            />
+            <h4
+              className="title"
+            >
+              DBS Bank
+            </h4>
+          </a>
+          <a
+            className="company"
+            href="https://www.sgx.com/"
+            key="SGX"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="SGX"
+              className="image"
+              src="https://www.sgx.com/images/7b0d6cda8853ac989d6e8670592a46c6.svg"
+            />
+            <h4
+              className="title"
+            >
+              SGX
+            </h4>
+          </a>
+          <a
+            className="company"
+            href="https://www.siriuscom.com/"
+            key="Sirius"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Sirius"
+              className="image"
+              src="https://www.siriuscom.com/wp-content/uploads/2017/01/logoweb17.png"
+            />
+            <h4
+              className="title"
+            >
+              Sirius
+            </h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </ScrollAnimation>
+</section>
+`;

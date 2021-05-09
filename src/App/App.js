@@ -3,6 +3,8 @@ import { hot } from 'react-hot-loader/root';
 
 import AboutMe from 'components/AboutMe';
 import Roles from 'components/Roles';
+import Work from 'components/Work';
+
 import css from './App.css';
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
       </div>
       <AboutMe />
       <Roles />
+      <Work />
     </div>
   );
 }

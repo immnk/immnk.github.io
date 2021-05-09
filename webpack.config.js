@@ -21,8 +21,8 @@ const banner = `
     Commit hash: ${revision}`;
 
 // eslint-disable-next-line max-lines-per-function
-module.exports = (env = {}, argv = {}) => {
-  const isProd = argv.mode === 'production';
+module.exports = (env) => {
+  const isProd = env.mode === 'production';
 
   return {
     mode: isProd ? 'production' : 'development',
