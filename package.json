@@ -62,7 +62,7 @@
     "postcss-scss": "^3.0.5",
     "postcss-simple-vars": "^6.0.3",
     "postcss-strip-inline-comments": "^0.1.5",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "progress-bar-webpack-plugin": "^2.1.0",
     "react-svg-loader": "^3.0.3",
     "rimraf": "^3.0.2",
