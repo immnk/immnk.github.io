@@ -8,7 +8,7 @@ jobs:
 
       - name: Install and Test 🔧
         run: |
-          npm install
+          npm ci
           npm run test:ci
 
       - name: Build
