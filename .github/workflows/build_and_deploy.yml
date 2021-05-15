@@ -8,7 +8,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm install
+          npm ci
           npm run test:ci
           npm run build
 
@@ -17,6 +17,11 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: './reports/lcov.info'
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run semantic-release
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
@@ -27,4 +32,4 @@ on:
   # Trigger the workflow on push to develop branch
   push:
     branches:
-      - develop
+      - release
