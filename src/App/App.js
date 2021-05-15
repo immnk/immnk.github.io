@@ -4,6 +4,7 @@ import { hot } from 'react-hot-loader/root';
 import AboutMe from 'components/AboutMe';
 import Roles from 'components/Roles';
 import Work from 'components/Work';
+import Recommendations from 'components/Recommendations';
 
 import css from './App.css';
 
@@ -40,6 +41,7 @@ function App() {
       <AboutMe />
       <Roles />
       <Work />
+      <Recommendations />
     </div>
   );
 }
