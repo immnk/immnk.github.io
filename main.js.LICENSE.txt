@@ -14,12 +14,268 @@ object-assign
  * 
  *     Package: immnk v1.0.0
  *     File name: main.js
- *     Generated on: 5/8/2021, 5:04:48 AM
- *     Commit hash: 99b410a3bccde2e4c88ca4bbf09f44b11abcc61a
+ *     Generated on: 5/15/2021, 2:52:19 PM
+ *     Commit hash: 3ea29df727c4e526cdd891e536872223725db23e
+ */
+
+/*! ./AboutMe */
+
+/*! ./AboutMe.css */
+
+/*! ./App */
+
+/*! ./App.css */
+
+/*! ./Roles */
+
+/*! ./Roles.css */
+
+/*! ./Work */
+
+/*! ./Work.css */
+
+/*! ./checkPropTypes */
+
+/*! ./cjs/react-dom.development.js */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./cjs/react.development.js */
+
+/*! ./cjs/scheduler-tracing.development.js */
+
+/*! ./cjs/scheduler.development.js */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./images/aryawatson.jpeg */
+
+/*! ./images/baashabot.jpeg */
+
+/*! ./images/creatuslabs.png */
+
+/*! ./images/pranavam.png */
+
+/*! ./images/project.png */
+
+/*! ./images/siriuskart.png */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! classnames */
+
+/*! components/AboutMe */
+
+/*! components/Roles */
+
+/*! components/Work */
+
+/*! lodash.throttle */
+
+/*! object-assign */
+
+/*! prop-types */
+
+/*! proptypes */
+
+/*! react */
+
+/*! react-animate-on-scroll */
+
+/*! react-dom */
+
+/*! react-is */
+
+/*! scheduler */
+
+/*! scheduler/tracing */
+
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+
+/*!*************************!*\
+  !*** ./src/App/App.css ***!
+  \*************************/
+
+/*!**************************!*\
+  !*** ./src/App/index.js ***!
+  \**************************/
+
+/*!*************************************!*\
+  !*** ./node_modules/react/index.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/Work/Work.js ***!
+  \*************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/Work/Work.css ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/Work/index.js ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/Roles/Roles.js ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/Roles/index.js ***!
+  \***************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/Roles/Roles.css ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/proptypes/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/react-dom/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/scheduler/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/components/AboutMe/index.js ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/classnames/index.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/prop-types/index.js ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/scheduler/tracing.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/components/AboutMe/AboutMe.js ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ./src/components/AboutMe/AboutMe.css ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/object-assign/index.js ***!
+  \*********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/lodash.throttle/index.js ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./src/components/Work/images/project.png ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/components/Work/images/pranavam.png ***!
+  \*************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/prop-types/checkPropTypes.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/Work/images/baashabot.jpeg ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/Work/images/siriuskart.png ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/components/Work/images/aryawatson.jpeg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/components/Work/images/creatuslabs.png ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/react/cjs/react.development.js ***!
+  \*****************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
+  \*************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/prop-types/node_modules/react-is/index.js ***!
+  \****************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
+  \*********************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js ***!
+  \**************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** ./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************************************/
+
+/**
+ * Checks if an event is supported in the current execution environment.
+ *
+ * NOTE: This will not work correctly for non-generic events such as `change`,
+ * `reset`, `load`, `error`, and `select`.
+ *
+ * Borrows from Modernizr.
+ *
+ * @param {string} eventNameSuffix Event name, e.g. "click".
+ * @return {boolean} True if the event is supported.
+ * @internal
+ * @license Modernizr 3.0.0pre (Custom Build) | MIT
  */
 
 /** @license React v0.20.2
- * scheduler.production.min.js
+ * scheduler-tracing.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v0.20.2
+ * scheduler.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -28,7 +284,7 @@ object-assign
  */
 
 /** @license React v17.0.2
- * react-dom.production.min.js
+ * react-dom.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -37,7 +293,7 @@ object-assign
  */
 
 /** @license React v17.0.2
- * react.production.min.js
+ * react.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
