@@ -16,7 +16,7 @@ const revision = require('child_process')
 
 const banner = `
     Package: ${packageJson.name} v${packageJson.version}
-    File name: [filebase]
+    File name: [base]
     Generated on: ${new Date(Date.now()).toLocaleString()} 
     Commit hash: ${revision}`;
 
@@ -107,7 +107,7 @@ module.exports = (env) => {
             {
               loader: 'file-loader',
               options: {
-                name: '[name]-[hash:8]-[ext]',
+                name: '[name]-[hash:8].[ext]',
                 outputPath: './static/images'
               }
             }

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Recommendations render app 1`] = `
+<section
+  className="root my-classname"
+>
+  <ScrollAnimation
+    animateIn="fadeIn"
+    animateOnce={false}
+    animatePreScroll={true}
+    delay={100}
+    duration={1}
+    initiallyVisible={false}
+    offset={150}
+  >
+    <div
+      className="container"
+    >
+      <h3
+        className="header"
+      >
+        Testimonials I received!
+      </h3>
+      <p
+        className="description"
+      >
+        All recommendations/Testimonials are fetched from my
+         
+        <a
+          href="https://www.linkedin.com/in/manikantatankala/"
+        >
+          LinkedIn
+        </a>
+         profile.
+      </p>
+      <div
+        className="list"
+      >
+        <div
+          className="recommendation"
+          key="Yury"
+        >
+          <div>
+            <img
+              alt="Yury"
+              className="avatar"
+              src="test-file-stub"
+            />
+            <h5
+              className="name"
+            >
+              Yury
+            </h5>
+          </div>
+          <p
+            className="text"
+          >
+            I worked with Manikanta for almost two years 
+      and he shown himself to be a capable and productive developer. 
+      He's a quick learner, inquisitive and resourceful. 
+      He can start a new package and get it live, he can independently develop a new infrastructure tool, 
+      and is always on the lookout for new challenges.
+          </p>
+        </div>
+        <div
+          className="recommendation"
+          key="Mark"
+        >
+          <div>
+            <img
+              alt="Mark"
+              className="avatar"
+              src="test-file-stub"
+            />
+            <h5
+              className="name"
+            >
+              Mark
+            </h5>
+          </div>
+          <p
+            className="text"
+          >
+            Manikanta is a talented developer. He is an adventurer and not afraid to venture new technologies. 
+        He thinks fast and provide valuable insights for the team. He is a guy that gets the job done.
+          </p>
+        </div>
+        <div
+          className="recommendation"
+          key="Chintan"
+        >
+          <div>
+            <img
+              alt="Chintan"
+              className="avatar"
+              src="test-file-stub"
+            />
+            <h5
+              className="name"
+            >
+              Chintan
+            </h5>
+          </div>
+          <p
+            className="text"
+          >
+            Highly skilled developer. Codes very well and of high quality. He was our go to guy when he was in Sirius.
+          </p>
+        </div>
+        <div
+          className="recommendation"
+          key="Vamsi"
+        >
+          <div>
+            <img
+              alt="Vamsi"
+              className="avatar"
+              src="test-file-stub"
+            />
+            <h5
+              className="name"
+            >
+              Vamsi
+            </h5>
+          </div>
+          <p
+            className="text"
+          >
+            I have worked with Manikanta, for several different projects ranging 
+        from windows mobile apps to android to angular and node.js. 
+        He is an excellent problem solver, he has no fear for diving into the code bases written by others, 
+        regardless of complexity. Hacker by nature, he quickly gives you the prototype of your app 
+        and iterate over it by taking the feedback. He has a good visual sense like a designer, 
+        and he also know sketch, posts random things in behance and things like that.
+         He has passion to complete the product with in the stipulated time, with the best of the quality code and UI. 
+         I look forward to work with him for the multiple projects in the days to come.
+          </p>
+        </div>
+      </div>
+    </div>
+  </ScrollAnimation>
+</section>
+`;
