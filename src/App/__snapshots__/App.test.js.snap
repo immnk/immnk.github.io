@@ -76,5 +76,6 @@ exports[`Test App render app 1`] = `
   <AboutMe />
   <Roles />
   <Work />
+  <Recommendations />
 </div>
 `;
