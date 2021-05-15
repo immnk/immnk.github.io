@@ -5,6 +5,9 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
+        with:
+          # Make sure the release step uses its own credentials.
+          persist-credentials: false
 
       - name: Install and Build 🔧
         run: |
