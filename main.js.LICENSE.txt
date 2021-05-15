@@ -14,8 +14,8 @@ object-assign
  * 
  *     Package: immnk v0.0.0-development
  *     File name: main.js
- *     Generated on: 5/15/2021, 4:08:08 PM
- *     Commit hash: f430779c19e592f9472431c004754355272676c9
+ *     Generated on: 5/15/2021, 6:10:33 PM
+ *     Commit hash: 46ec8f348f873371b5c9df5396cfc23d609fced5
  */
 
 /*! ./AboutMe */
@@ -25,6 +25,10 @@ object-assign
 /*! ./App */
 
 /*! ./App.css */
+
+/*! ./Recommendations */
+
+/*! ./Recommendations.css */
 
 /*! ./Roles */
 
@@ -52,7 +56,11 @@ object-assign
 
 /*! ./images/baashabot.jpeg */
 
+/*! ./images/chintan.jpeg */
+
 /*! ./images/creatuslabs.png */
+
+/*! ./images/mark.jpeg */
 
 /*! ./images/pranavam.png */
 
@@ -60,11 +68,17 @@ object-assign
 
 /*! ./images/siriuskart.png */
 
+/*! ./images/vamsi.jpeg */
+
+/*! ./images/yury.jpeg */
+
 /*! ./lib/ReactPropTypesSecret */
 
 /*! classnames */
 
 /*! components/AboutMe */
+
+/*! components/Recommendations */
 
 /*! components/Roles */
 
@@ -183,6 +197,10 @@ object-assign
   \************************************************/
 
 /*!*************************************************!*\
+  !*** ./src/components/Recommendations/index.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
   !*** ./src/components/Work/images/pranavam.png ***!
   \*************************************************/
 
@@ -210,8 +228,32 @@ object-assign
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
 
+/*!*********************************************************!*\
+  !*** ./src/components/Recommendations/images/mark.jpeg ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/components/Recommendations/images/yury.jpeg ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/components/Recommendations/images/vamsi.jpeg ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/components/Recommendations/Recommendations.js ***!
+  \***********************************************************/
+
 /*!************************************************************!*\
   !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/components/Recommendations/Recommendations.css ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/components/Recommendations/images/chintan.jpeg ***!
   \************************************************************/
 
 /*!*************************************************************!*\
