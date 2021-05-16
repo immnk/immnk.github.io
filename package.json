@@ -1,6 +1,6 @@
 {
   "name": "immnk",
-  "version": "0.0.0-development",
+  "version": "1.1.1",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.1",
