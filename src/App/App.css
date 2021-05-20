@@ -36,8 +36,8 @@
   top: 5%;
   transform: translateX(-50%) translateY(-50%);
   left: 50%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   opacity: 0.5;
   background: #f4f1bb url(./dev.png) no-repeat;
   background-size: contain;
@@ -66,5 +66,9 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: 540px) {
+    width: 100%;
   }
 }
