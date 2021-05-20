@@ -87,8 +87,9 @@
   "scripts": {
     "clean": "rimraf ./build",
     "start": "webpack serve --env=development --progress --profile --content-base src/",
-    "build": "npm run clean && npm run build:bundle",
+    "build": "npm run clean && npm run build:bundle && npm run build:gz",
     "build:bundle": "cross-env NODE_ENV=production webpack --env=production",
+    "build:gz": "zip -r ./build.zip ./build/*",
     "test": "npm run lint && npm run test:coverage",
     "test:ci": "npm run lint && npm run test:coverage:ci",
     "test:coverage": "jest --coverage --coverageReporters=lcov --runInBand --detectOpenHandles",

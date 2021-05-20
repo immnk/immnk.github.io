@@ -1,5 +1,5 @@
 {
-  "branches": ["master", "release"],
+  "branches": ["develop"],
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
@@ -56,7 +56,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": ["build/**"]
+        "assets": ["build.zip"]
       }
     ]
   ]
