@@ -7,7 +7,7 @@ const renderApp = (props) => shallow(<App {...props} />);
 
 describe('Test App', () => {
   it('render app', () => {
-    const actual = renderApp();
+    const actual = renderApp({ testMode: true });
     expect(actual).toMatchSnapshot();
   });
 });

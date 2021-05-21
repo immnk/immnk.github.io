@@ -1,5 +1,7 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
+import ReactGA from 'react-ga';
+import PropTypes from 'prop-types';
 
 import AboutMe from 'components/AboutMe';
 import Roles from 'components/Roles';
@@ -8,7 +10,10 @@ import Recommendations from 'components/Recommendations';
 
 import css from './App.css';
 
-function App() {
+function App({ testMode }) {
+  const TRACKING_ID = 'UA-114860474-2';
+  ReactGA.initialize(TRACKING_ID, { testMode });
+
   return (
     <div className={css.root}>
       <div className={css.devImage} />
@@ -45,5 +50,13 @@ function App() {
     </div>
   );
 }
+
+App.defaultProps = {
+  testMode: undefined
+};
+
+App.propTypes = {
+  testMode: PropTypes.bool
+};
 
 export default hot(App);
