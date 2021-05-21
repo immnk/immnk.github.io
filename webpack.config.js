@@ -118,7 +118,7 @@ module.exports = (env) => {
     target: 'web',
     optimization: {
       minimize: true,
-      minimizer: [`...`, new CssMinimizerPlugin()]
+      minimizer: ['...', new CssMinimizerPlugin()]
     },
     plugins: [
       new MiniCssExtractPlugin({
