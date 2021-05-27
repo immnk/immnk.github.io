@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-// const TerserJSPlugin = require('terser-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const packageRoot = process.cwd();
 // eslint-disable-next-line import/no-dynamic-require
@@ -132,7 +132,11 @@ module.exports = (env) => {
         filename: './index.html',
         now: new Date().toISOString(),
         title: `${packageJson.description}`,
-        package: `${packageJson.name} v${packageJson.version}`
+        package: `${packageJson.name} v${packageJson.version}`,
+        PUBLIC_URL: '.'
+      }),
+      new CopyPlugin({
+        patterns: ['public/manifest.json', 'public/icon-192x192.png', 'public/robots.txt']
       }),
       new webpack.BannerPlugin(banner),
       new webpack.ids.HashedModuleIdsPlugin({
