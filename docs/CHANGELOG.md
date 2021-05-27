@@ -1,3 +1,15 @@
+## [1.3.0](https://github.com/immnk/immnk.github.io/compare/v1.2.0...v1.3.0) (2021-05-27)
+
+
+### Features
+
+* [#134](https://github.com/immnk/immnk.github.io/issues/134) integrate google analytics into application ([514a856](https://github.com/immnk/immnk.github.io/commit/514a856e5595d11b4a5e9dcaad4403792232147b))
+
+
+### Bug Fixes
+
+* [#172](https://github.com/immnk/immnk.github.io/issues/172) [#134](https://github.com/immnk/immnk.github.io/issues/134) - google analytics fixed, public url fixed ([20061ab](https://github.com/immnk/immnk.github.io/commit/20061abc1087bf4d55bd6ed03c48297aab0092e7))
+
 ## [1.2.0](https://github.com/immnk/immnk.github.io/compare/v1.1.1...v1.2.0) (2021-05-20)
 
 
