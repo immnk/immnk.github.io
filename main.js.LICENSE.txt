@@ -12,10 +12,10 @@ object-assign
 
 /*!
  * 
- *     Package: immnk v1.2.0
+ *     Package: immnk v1.3.0
  *     File name: main.js
- *     Generated on: 5/27/2021, 2:40:28 PM
- *     Commit hash: 52182788befd3fd83a8e0695989e69835a3f4327
+ *     Generated on: 5/28/2021, 10:19:53 AM
+ *     Commit hash: 78758d8878e9b7ba557e2f09e8b6f12f59197fbb
  */
 
 /*! ../utils/console/warn */
