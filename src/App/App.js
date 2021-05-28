@@ -9,7 +9,7 @@ import Recommendations from 'components/Recommendations';
 
 import css from './App.css';
 
-const TRACKING_ID = 'UA-114860474-2';
+const TRACKING_ID = 'UA-198123428-1';
 ReactGA.initialize(TRACKING_ID);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
