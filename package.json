@@ -75,7 +75,7 @@
     "progress-bar-webpack-plugin": "^2.1.0",
     "react-svg-loader": "^3.0.3",
     "rimraf": "^3.0.2",
-    "semantic-release": "^17.4.3",
+    "semantic-release": "^19.0.4",
     "style-loader": "^2.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
