@@ -9,7 +9,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.0",
     "react-ga": "^3.3.0",
-    "react-hot-loader": "^4.13.0",
+    "react-hot-loader": "^4.13.1",
     "redux-zero": "^5.1.0"
   },
   "devDependencies": {
